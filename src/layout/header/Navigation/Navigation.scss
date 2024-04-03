@@ -1,0 +1,9 @@
+.header__navigation {
+	@include centered-axis-x;
+	ul {
+		display: flex;
+		li {
+			margin-right: 20px;
+		}
+	}
+}

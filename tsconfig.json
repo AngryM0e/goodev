@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "ES5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": false,
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", "src/global.d.ts"]
+}

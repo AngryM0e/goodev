@@ -1,0 +1,5 @@
+@mixin centered-axis-x {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
